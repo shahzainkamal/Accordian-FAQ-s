@@ -1,0 +1,55 @@
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: var(--clr-300);
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --clr-100: hsl(293, 74%, 45%);
+  --clr-200: hsl(292, 42%, 14%);
+  --clr-300: hsl(275, 100%, 97%);
+}
+@media screen and (max-width: 767px) {
+  .desktop-image {
+    display: none;
+  }
+  .container {
+    /* padding: 20% 20%;
+    margin-left: 80%; */
+    /* width: 100%; */
+  }
+  .mobile-image {
+    margin-left: 28%;
+    width: 44%;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.header-icon {
+  width: 38px;
+}
+html {
+  background-color: var(--clr-300);
+}
+summary {
+  font-size: 15px;
+  font-weight: bold;
+}
+summary:hover {
+  color: var(--clr-100);
+}
+.container {
+  margin: -10% 28% 23% 28%;
+  background-color: white;
+  padding: 40px 40px 40px 40px;
+  border-radius: 10px;
+  line-height: 20px;
+  position: absolute;
+}
+p {
+  font-size: 12px;
+  opacity: 0.7;
+}
